@@ -15,7 +15,7 @@ import java.util.Date;
 public class AddEventDialog extends JDialog {
     public AddEventDialog(JCalendarPanel calendarPanel, EventManager eventManager, LocalDate selectedDate) {
         super(SwingUtilities.getWindowAncestor(calendarPanel), "Add Event", ModalityType.APPLICATION_MODAL);
-        setSize(400, 500);
+        setSize(400, 550);
         setLocationRelativeTo(calendarPanel);
 
         JPanel panel = new JPanel(new GridLayout(0, 2, 10, 10));
